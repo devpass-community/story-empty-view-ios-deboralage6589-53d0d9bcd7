@@ -25,17 +25,6 @@ class EmptyView: UIView {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-
-    /*
-     
-     Nossa EmptyView deve ter um componente UILabel centralizado na tela. Fique atento às configurações que o UILabel deve ter:
-     - O atributo text deve ser configurado com o texto "No data found"
-     - O atributo font deve ser configurado com o valor UIFont.systemFont(ofSize: 22, weight: .semibold)
-     - O atributo textAlignment deve ser configurado com o valor .center
-     - Defina o atributo backgroundColor da EmptyView como .white
-     
-     
-     */
 }
 
 private extension EmptyView {
